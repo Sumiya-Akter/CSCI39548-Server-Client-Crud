@@ -16,6 +16,8 @@ const Student = db.define("student", {
 
   email: {
     type: Sequelize.STRING,
+    allowNull: false,
+    defaultValue: 'johnsmith@email.com',
     validate: {
       isEmail: true
     }
