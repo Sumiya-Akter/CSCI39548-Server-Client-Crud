@@ -61,8 +61,8 @@ const bootApp = async () => {
 
 bootApp();
 
-app.use('/Campus', require('./routes/Campus'));
-app.use('/Student', require('./routes/Student'));
+// app.use('/Campus', require('./routes/Campus'));
+// app.use('/Student', require('./routes/Student'));
 
 const PORT = 5000;
 app.listen(PORT, console.log(`Server started on ${PORT}`));
