@@ -6,12 +6,14 @@ const Student = db.define("student", {
 
   firstname: {
     type: Sequelize.STRING,
-    allowNull: false
+    allowNull: false,
+    defaultValue: 'First Name'
   },
 
   lastname: {
     type: Sequelize.STRING,
-    allowNull: false
+    allowNull: false,
+    defaultValue: 'Last Name'
   },
 
   email: {
