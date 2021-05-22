@@ -5,7 +5,8 @@ const Campus = db.define("campus", {
 
   name: {
     type: Sequelize.STRING,
-    allowNull: false
+    allowNull: false,
+    defaultValue: 'Campus Name'
   },
 
   imageUrl: {
@@ -16,7 +17,7 @@ const Campus = db.define("campus", {
   address: {
     type: Sequelize.STRING,
     allowNull: false,
-    defaultValue: 'placement address'
+    defaultValue: 'unknown address'
    },
 
   description: {
