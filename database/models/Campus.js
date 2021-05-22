@@ -14,10 +14,10 @@ const Campus = db.define("campus", {
   },
 
   // !!!!!!!!!!!!
-  // address: {
-  //   type: Sequelize.STRING,
-  //   allowNull: false
-  // },
+  //address: {
+    // type: Sequelize.STRING,
+     //allowNull: false
+   //},
 
   description: {
     type: Sequelize.TEXT('large'),
