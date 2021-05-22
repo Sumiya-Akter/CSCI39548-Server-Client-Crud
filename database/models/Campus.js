@@ -13,10 +13,11 @@ const Campus = db.define("campus", {
     defaultValue: 'https://img.icons8.com/small/452/error.png'
   },
 
-  address: {
-    type: Sequelize.STRING,
-    allowNull: false
-  },
+  // !!!!!!!!!!!!
+  // address: {
+  //   type: Sequelize.STRING,
+  //   allowNull: false
+  // },
 
   description: {
     type: Sequelize.TEXT('large'),

@@ -1,5 +1,5 @@
 const Sequelize = require('sequelize');
-const { toDefaultValue } = require('sequelize/types/lib/utils');
+// const { toDefaultValue } = require('sequelize/types/lib/utils');   !!!!!
 const db = require('../db');
 
 const Student = db.define("student", {
